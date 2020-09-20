@@ -142,7 +142,7 @@ client.on("message", event => {
   }
  	
   if (event.content.toLowerCase() === "hi") {
-	event.channel.send("Hi");
+	event.reply("Hi")
   }
 });
 
