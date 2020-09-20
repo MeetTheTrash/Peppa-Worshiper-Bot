@@ -63,7 +63,7 @@ client.on("message", event => {
 
             info.setTitle("Peppa Worshipers Bot Information");
 			info.setDescription("I am a bot that was sent by Peppa");
-			info.addField("Version:", "v3.3.0", false);
+			info.addField("Version:", "v3.1.2", false);
 			info.setAuthor("Created by TradingBooch12 and ree man");
             info.setColor(0xff50d1);
             
