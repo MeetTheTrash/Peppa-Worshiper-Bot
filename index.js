@@ -140,6 +140,10 @@ client.on("message", event => {
             break;
       
   }
+ 	
+  if (event.content.toLowerCase() === "hi") {
+	event.channel.send("Hi");
+  }
 });
 
 client.login(process.env.TOKEN);
